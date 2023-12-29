@@ -20,14 +20,14 @@ End the program.
 ## PROGRAM:
 #Developed by: Sabeeha Shaik
 #Register Number: 23012003
-'''
+```
 num_words = 0
 with open("Untitled.ipynb",'r') as file1:
     for i in file1:
         word = i.split()
     num_words += len(word)
 print("Number of words={}".format(num_words))
-'''
+```
 ### OUTPUT:
 ![Screenshot 2023-12-29 205134](https://github.com/Sabeeha23/Word-count/assets/150231876/3abc81f8-2f47-482e-9a29-e6ed261a0680)
 
